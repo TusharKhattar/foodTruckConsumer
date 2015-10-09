@@ -2,4 +2,11 @@
     <string name="app_name">FoodTruckConsumer</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_food_truck_present_location_map">Map</string>
+    <string name="title_activity_bookmark_food_trucks">BookmarkFoodTrucks</string>
+    <string name="title_activity_bookmark_personal_page">BookmarkPersonalPageActivity</string>
+    <string name="title_activity_weekly_update_navigation_drawer">WeeklyUpdateNavigationDrawer
+    </string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>

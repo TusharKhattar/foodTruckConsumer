@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/mon" android:icon="@drawable/location"
+            android:title="Monday" />
+        <item android:id="@+id/tues" android:icon="@drawable/location"
+            android:title="Tuesday" />
+        <item android:id="@+id/wed" android:icon="@drawable/location"
+            android:title="Wednesday" />
+        <item android:id="@+id/thursday" android:icon="@drawable/location"
+            android:title="Thursday" />
+        <item android:id="@+id/friday" android:icon="@drawable/location"
+            android:title="Friday" />
+        <item android:id="@+id/sat" android:icon="@drawable/location"
+            android:title="Saturday" />
+        <item android:id="@+id/sun" android:icon="@drawable/location"
+            android:title="Sunday" />
+    </group>
+
+
+</menu>

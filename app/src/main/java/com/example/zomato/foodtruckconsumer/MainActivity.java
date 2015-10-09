@@ -26,12 +26,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        toolbar.animate().translationY(0).setInterpolator(new DecelerateInterpolator()).start();
-        toolbar.animate().translationY(toolbar.getBottom()).setInterpolator(new AccelerateInterpolator()).start();
-
-
-        Intent i=new Intent(this,RegistrationIntentService.class);
-        startService(i);
+        Intent i=new Intent(this,BookmarkFoodTrucks.class);
+        startActivity(i);
 
     }
 

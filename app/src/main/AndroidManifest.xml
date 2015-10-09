@@ -76,6 +76,23 @@
             android:name=".FoodTruckPresentLocationMap"
             android:label="@string/title_activity_food_truck_present_location_map" >
         </activity>
+        <activity
+            android:name=".BookmarkFoodTrucks"
+            android:label="@string/title_activity_bookmark_food_trucks"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".FoodTruckPersonalPageActivity"
+            android:label="@string/title_activity_bookmark_personal_page"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".WeeklyUpdateNavigationDrawer"
+            android:label="@string/title_activity_weekly_update_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".TestActivity" >
+        </activity>
     </application>
 
 </manifest>

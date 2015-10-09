@@ -56,27 +56,7 @@ public class NotificationGcmListenerService extends GcmListenerService implement
         notificationManager.notify(1,notificationBuilder.build());
     }
 
-    public String getLocationAddress(double latitude,double longitude){
-        String output="";
-        StringBuilder strAddress;
-        Geocoder geocoder=new Geocoder(this, Locale.ENGLISH);
-        try {
-            List<Address> addresses=geocoder.getFromLocation(latitude, longitude, 2);
-            if(addresses!=null){
-                Address fetchedAddress=addresses.get(0);
-                Log.i("ppppppp",fetchedAddress.toString());
-                strAddress = new StringBuilder();
-
-                for(int i=0; i<fetchedAddress.getMaxAddressLineIndex(); i++) {
-                    strAddress.append(fetchedAddress.getAddressLine(i)).append("\n");
-                }
-                output=strAddress.toString();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return output;
-    }
+    
 
     @Override
     public void onReceiveLocation(Location location) {
